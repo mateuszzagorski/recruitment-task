@@ -1,0 +1,50 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  max-width: 1600px;
+  gap: 30px;
+}
+
+.table {
+  min-width: 1000px;
+}
+
+.table-row__selected { 
+  background-color: #eaeaea;
+}
+
+.thumbnail {
+  max-width: 64px;
+}
+
+.button-cancel {
+  cursor: pointer
+}
+
+.breadcrumbs {
+  padding: 10px 0;
+}
+
+.books-list-box {
+  width: 100%;
+  max-width: 360px;
+  height: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #213547;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .books-list-box {
+    max-width: 100%;
+  }
+}
